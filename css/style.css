@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("../bg.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   }
+
+   #board{
+       background: linear-gradient(rgb(171, 187, 171),rgb(199, 199, 148));
+        width: 90vmin;
+        height: 92vmin;
+        border: 2px solid black;
+        display: grid;
+        grid-template-rows: repeat(18,1fr);
+        grid-template-columns: repeat(18,1fr);
+    }
+
+    .head{
+        background-color: red;
+    }
+
+    .food{
+        background-color: yellow;
+    }
+
+    .snake{
+        background-color: purple;
+    }
+
