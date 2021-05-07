@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
 
 .body{
-    background: url("../bg.jpg");
+    background: url("../img/bg.jpg");
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -13,12 +14,23 @@
     align-items: center; 
    }
 
-   #score{
+   #scoreBox{
        position: absolute;
        top: 9px;
        right: 200px;
        font-size: 39px;
        font-weight: bold;
+       font-family: 'New Tegomin', serif;
+   }
+
+   #hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+      
    }
 
    #board{
@@ -32,8 +44,8 @@
     }
 
     .head{
-        background: linear-gradient(red,yellow);
-        border : 2px solid purple;
+        background: linear-gradient(rgb(224, 125, 125),rgb(231, 231, 133));
+        border : 2px solid rgb(29, 1, 29);
         transform: scale(1.02);
         border-radius: 9px;
     }
